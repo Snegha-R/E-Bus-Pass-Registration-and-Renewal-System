@@ -1,0 +1,168 @@
+<html>
+ <head>
+<title>Student Login 
+</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+body
+ {
+margin: 0;
+padding: 0;
+background: url(A17.jpg);
+background-size: cover;
+font-family: sans-serif;
+ }
+ 
+/* Increase the font size of the h1 element */
+.header h1 {
+
+
+  font-size: 40px;
+}
+.title
+{
+text-align: center;
+padding: 50px 0 20px;
+}
+.title h1
+{
+margin: 0;
+padding: 0;
+color: green;
+text-transform: uppercase;
+font-size: 36px;
+}
+.container
+{
+width: 50%;
+height: 400px;
+background: #fff;
+margin: 0 auto;
+border: 2px solid #fff;
+box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container .left
+{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(A18.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.rightmenu ul a
+{
+font-family: 'Montserrat', sans-serif;
+display: inline-block;
+list-style: none;
+font-size: 15px;
+color: white;
+font-weight: bold;
+line-height: 90px;
+margin-left: 40px;
+text-decoration-line: none;
+}
+
+.container .right
+{
+float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.formBox
+{
+width: 100%;
+padding: 80px 40px;
+box-sizing: border-box;
+height: 300px;
+background: #fff;
+}
+ .formBox p
+ {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: green;
+ }
+ .formBox input
+ {
+  width: 100%;
+  margin-bottom: 20px;
+ }
+ .formBox input[type="text"],
+ .formBox input[type="Password"],
+ {
+  border: none;
+  border-bottom: 2px solid #a6af13;
+  outline: none;
+  height: 40px;
+ }
+ .formBox input[type="text"]:focus,
+ .formBox input[type="Password"]:focus
+ {
+  border-bottom: 2px solid #262626;
+ }
+ .formBox input[type="Submit"]
+ {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #ffff;
+  background: green;
+  cursor: pointer;
+ }
+ .formBox input[type="Submit"]:hover
+ {
+  background: #000;
+ }
+ .formBox a
+ {
+  color: green;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+.previous {
+             margin-top: 70px;
+           background-color: green;
+            font-color: black;
+               height:20px;    
+       width: 253px;
+          border-radius: 25px;  
+           position: absolute;
+            bottom:75px;
+              left: calc(23% - 50px);}
+</style>
+<body>
+
+
+ <form action="verify.php" method="post"> 
+   <div class="title"><h1> STUDENT LOGIN</h1></div>
+    <div class="container">
+    <div class="left"></div>
+        <div class="right">
+        <div class="formBox">
+        <form action="verify.php" method="post">
+        <p>Username</p>
+        <input type="text" name="name" placeholder="Register Number" required>
+        <p>Password</p>
+        <input type="Password" name="pass" placeholder="Password" required>
+        <input type="submit" name="submit" value="Sign In">
+        <a href="reset.html">Forget Password</a>
+        <a href="bnewhome.html">Back</a>
+        </form>
+             </div>
+        </div>
+    </div>
+
+</body>
+</head>
+</html>
+
+
